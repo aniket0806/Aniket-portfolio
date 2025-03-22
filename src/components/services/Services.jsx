@@ -45,12 +45,13 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
+            Business.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,12 +61,17 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h1>Web Development</h1>
+          <h2>💻 Custom Web Solutions</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            I build modern, high-performance, and scalable web applications
+            using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+            Whether you need a business website, portfolio, or a SaaS platform,
+            I ensure top-notch development and optimization. 
+            🔹 Tech Stack:
+            React.js, Next.js, Tailwind CSS, Express.js, MongoDB 
+            🔹 Features:
+            Fast, SEO-friendly, fully responsive
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +79,30 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h1>UI/UX Design</h1>
+          <h2>🎨 Engaging & Interactive UI/UX</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            
+
+A stunning design is key to user engagement! I craft visually appealing and intuitive user interfaces that enhance user experience and boost conversions.
+🔹 Tools: Figma, Adobe XD, Tailwind CSS
+🔹 Services: Wireframing, Prototyping, UI Redesign
+🔸 [ See My Work ]
+          </p>
+          <button>Go</button>
+        </motion.div>
+       
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h1>E-Commerce Solutions</h1>
+          <h2>🛒 Sell Online Seamlessly</h2>
+          <p>
+          Want to build an E-Commerce platform? I integrate secure payment gateways (Stripe, Razorpay), build custom product pages, and optimize performance for better conversions.
+🔹 Tech Stack: MERN, Shopify, Firebase, Stripe
+🔹 Features: Secure payments, cart functionality, admin dashboard
+🔸 [ Launch Your Store ]
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,29 +110,20 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h1>Performance Optimization</h1>
+          <h2>⚡ Fast & Secure Websites</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+
+
+Slow websites lose customers! I help optimize your site's speed, security, and SEO, ensuring it ranks higher and provides a smooth experience.
+🔹 Services: Code optimization, lazy loading, caching, API efficiency
+🔹 Results: Improved speed, lower bounce rate, better conversions
+🔸 [ Improve Now ]
           </p>
           <button>Go</button>
         </motion.div>
       </motion.div>
+      
     </motion.div>
   );
 };
